@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Social/Social.h>
 
-@interface _66ViewController : UIViewController
+@interface _66ViewController : UIViewController{
+    SLComposeViewController *mySLComposerSheet;
+}
 
 @end
